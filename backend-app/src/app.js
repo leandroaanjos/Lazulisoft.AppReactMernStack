@@ -1,8 +1,8 @@
-var createError = require('http-errors');
-let express = require('express');
-let mongoose = require('mongoose');
-let cors = require('cors');
-let bodyParser = require('body-parser');
+const express = require('express');
+const createError = require('http-errors');
+const mongoose = require('mongoose');
+const cors = require('cors');
+const bodyParser = require('body-parser');
 const appConstants = require('./appConstants');
 
 // Routes
